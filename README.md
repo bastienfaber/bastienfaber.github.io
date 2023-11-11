@@ -1,3 +1,3 @@
-# bastienfaber.github.io
+# Bastien Faber
 
-Website
+Website: [bastienfaber.github.io](https://bastienfaber.github.io/)

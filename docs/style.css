@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+* { font-family: 'EB Garamond', serif; }
+
+/* * { font-family: serif; } */
+
+.navigation {
+  font-variant: small-caps;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.navigation * {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: -1em;
+}
+
+.gedichttitel {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: large;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.gedichtuntertitel {
+  font-style: italic;
+  text-align: center;
+}
+
+:root {
+  --indent: 1.7em;
+  --negindent: calc(var(--indent) * -1);
+}
+
+.gedichttext {
+  display: flex;
+  justify-content: center;
+  margin-left: var(--indent);
+}
+
+.gedichtdatum {
+  font-style: italic;
+  text-align: center;
+}
+
+.gedichtsprecher {
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: -0.5em;
+  margin-left: var(--negindent);
+}
+
+.trenner {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: var(--negindent);
+}
+
+.kontakt {
+  margin-left: 0.7px;
+  margin-top: 20.7px;
+  margin-bottom: -4.7px;
+}
+
+img {
+  height: 1em;
+}
